@@ -9,7 +9,7 @@ jobs:
       name: "Build images"
       env:
         REGISTRY: registry.patr.cloud
-        PATR_IMAGE: ${{ secrets.PATR_IMAGE }}
+        PATR_IMAGE: ${{ secrets.PATR_IMAGE }}:latest
         PATR_USER: ${{ secrets.PATR_USER }}
         PATR_PASS: ${{ secrets.PATR_PASS }}
 
